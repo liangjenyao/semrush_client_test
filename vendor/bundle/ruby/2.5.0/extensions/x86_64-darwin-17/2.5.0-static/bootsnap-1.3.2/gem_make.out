@@ -1,0 +1,15 @@
+current directory: /Users/innova-pc65/semrush_client_test/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.2/ext/bootsnap
+/Users/innova-pc65/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20181214-17008-1owyc8j.rb extconf.rb
+creating Makefile
+
+current directory: /Users/innova-pc65/semrush_client_test/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.2/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/innova-pc65/semrush_client_test/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.2/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/innova-pc65/semrush_client_test/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.2/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20181214-17008-1gkemt9/bootsnap

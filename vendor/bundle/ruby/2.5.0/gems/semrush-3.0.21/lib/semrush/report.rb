@@ -112,7 +112,7 @@ module Semrush
       domain? ? request(params.merge(:report_type => :domain_rank)) : request(params.merge(:report_type => :phrase_this))
     end
 
-    # Organic report
+    # Organic report!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     # Can be called for a domain or a URL.
     # Default columns for a domain:
     # * Ph - The search query which the site has within the first 20 Google search results
@@ -184,7 +184,7 @@ module Semrush
       adwords(params)
     end
 
-    # Competitors in organic search report
+    # Competitors in organic search report!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     # Default columns:
     # * Dn - Sites competing with this site in Google search results, sorted by the number of common keywords
     # * Np - The number of keywords on which the site is displayed in search results next to the analyzed site
@@ -238,7 +238,7 @@ module Semrush
       domain? ? request(params.merge(:report_type => :domain_adwords_historical)) : request(params.merge(:report_type => :phrase_adwords_historical))
     end
 
-    # Related keyword report
+    # Related keyword report!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     # Default columns:
     # * Ph - The search query which the site has within the first 20 Google search results
     # * Nq - Average number of queries of this keyword in a month, for the corresponding local version of Google
